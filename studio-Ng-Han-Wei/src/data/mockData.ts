@@ -4,18 +4,18 @@ const today = new Date();
 const oneDay = 24 * 60 * 60 * 1000;
 
 export const mockPerformanceData: PerformanceEntry[] = [
-  {
-    id: "1",
-    userId: "user_001",
-    userName: "Alice Wonder",
-    sessionId: "session_abc",
-    timestamp: new Date(today.getTime() - 2 * oneDay),
-    taskName: "Precision Task Alpha",
-    score: 85,
-    durationSeconds: 120,
-    completionStatus: "completed",
-    errors: 2,
-  },
+  // {
+  //   id: "1",
+  //   userId: "user_001",
+  //   userName: "Alice Wonder",
+  //   sessionId: "session_abc",
+  //   timestamp: new Date(today.getTime() - 2 * oneDay),
+  //   taskName: "Precision Task Alpha",
+  //   score: 85,
+  //   durationSeconds: 120,
+  //   completionStatus: "completed",
+  //   errors: 2,
+  // },
   {
     id: "2",
     userId: "user_002",
