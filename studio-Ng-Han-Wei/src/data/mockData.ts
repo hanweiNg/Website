@@ -7,7 +7,7 @@ export const mockPerformanceData: PerformanceEntry[] = [
   {
     id: "1",
     userId: "user_001",
-    userName: "Alice Wonderland",
+    userName: "Alice Wonder",
     sessionId: "session_abc",
     timestamp: new Date(today.getTime() - 2 * oneDay),
     taskName: "Precision Task Alpha",
